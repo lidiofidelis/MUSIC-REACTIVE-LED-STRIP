@@ -5,7 +5,8 @@ const int ledPin = 2;  // 2 corresponds to GPIO2
 // setting PWM properties
 const int freq = 5000;
 const int ledChannel = 0;
-const int resolution = 16;
+const int resolution = 8; // 0 to 255
+// Red, green, and blue pins for PWM control
  
 void setup(){
   // configure LED PWM functionalitites
